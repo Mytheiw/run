@@ -1,6 +1,6 @@
 #!/bin/bash
 
-IMAGE_FILE=/image/pxfuel.jpg
+IMAGE_FILE=/root/run/image/pxfuel.jpg
 AUDIO_FILE_OR_PLAYLIST_URL=https://example.com/path/to/your/audio/file.mp3
 YOUTUBE_RTMP_SERVER_URL=rtmp://x.rtmp.youtube.com/live2
 YOUTUBE_STREAM_KEY=your_stream_key
