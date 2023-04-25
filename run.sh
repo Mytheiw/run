@@ -1,7 +1,7 @@
 #!/bin/bash
 
 IMAGE_FILE="/root/run/image/pxfuel.jpg"
-AUDIO_FILE_OR_PLAYLIST_URL="/root/run/music/audio.mp3"
+AUDIO_FILE_OR_PLAYLIST_URL="http://carbon.bxhosting.com:1780/stream"
 YOUTUBE_RTMP_SERVER_URL="rtmp://x.rtmp.youtube.com/live2"
 YOUTUBE_STREAM_KEY="4mkp-0570-xf06-7gb5-41dx"
 
