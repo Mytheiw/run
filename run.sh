@@ -8,4 +8,4 @@ LOOP="1"
 IMAGE="2"
 AUDIO="44100"
 
-ffmpeg -re -loop "$LOOP" -i "$IMAGE_FILE" -i "$AUDIO_FILE_OR_PLAYLIST_URL" -c:a libmp3lame -ar "$AUDIO" -b:a 128k -c:v libx264 -b:v 1500k -preset veryfast -pix_fmt yuv420p -s 1280x720 -bufsize 6000k -vb 400k -maxrate 1500k -g "$IMAGE" -f flv "$YOUTUBE_RTMP_SERVER_URL"/"$YOUTUBE_STREAM_KEY"
+ffmpeg -re -loop "$LOOP" -i "$IMAGE_FILE" -i "$AUDIO_FILE_OR_PLAYLIST_URL" -c:a libmp3lame -ar "$AUDIO" -b:a 128k -c:v libx264 -b:v 1500k -preset veryfast -pix_fmt yuv420p -s 1280x720 -bufsize 6000k -vb 400k -maxrate 1500k -g "$IMAGE" -f flv -flvflags no_duration_filesize "$YOUTUBE_RTMP_SERVER_URL"/"$YOUTUBE_STREAM_KEY"
