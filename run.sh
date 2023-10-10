@@ -3,7 +3,7 @@
 IMAGE_FILE="/root/run/image/pxfuel.jpg"
 AUDIO_FILE_OR_PLAYLIST_URL="http://carbon.bxhosting.com:1780/stream"
 YOUTUBE_RTMP_SERVER_URL="rtmp://x.rtmp.youtube.com/live2"
-YOUTUBE_STREAM_KEY="wkbg-ks7a-dh74-kasj-320w"
+YOUTUBE_STREAM_KEY="wkbg-123v-67gf-jkj8-450y"
 LOOP="1"
 IMAGE="24"
 AUDIO="44100"
